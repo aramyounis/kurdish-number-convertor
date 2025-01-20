@@ -1,0 +1,19 @@
+{
+  "name": "@aramyounis/kurdish-number-convertor",
+  "version": "1.0.0",
+  "description": "this package for changing english number to kurdish or kurdish number to english",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aramyounis/kurdish-number-convertor.git"
+  },
+  "author": "aramyounis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aramyounis/kurdish-number-convertor/issues"
+  },
+  "homepage": "https://github.com/aramyounis/kurdish-number-convertor#readme"
+}
