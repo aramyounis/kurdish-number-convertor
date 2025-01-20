@@ -2,23 +2,23 @@
 
 ## زیادکردنی پاکێج
 
-      npm install kurdish-number-Convertor
+      npm install @aramyounis/kurdish-number-convertor
 
 OR
 
-      yarn add kurdish-number-Convertor
+      yarn add @aramyounis/kurdish-number-convertor
 
 ## شێوازی بەکارهێنان
 
 ```javascript
-import kurdish_number_convertor from 'kurdish-number-convertor';
+const convertNumber = require('@aramyounis/kurdish-number-convertor');
 
 var number = 135644;
-var kurdishNumber = kurdish_number_convertor.convertToKrd(number);
+var kurdishNumber = convertNumber.convertToKrd(number);
 console.log(kurdishNumber); // ١٣٥٦٤٤
 
 var numberKrd = '٢٣٥٤';
-var englishNumber = kurdish_number_convertor.convertToEng(numberKrd);
+var englishNumber = convertNumber.convertToEng(numberKrd);
 console.log(englishNumber); // 2354
 ```
 
